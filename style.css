@@ -1,0 +1,152 @@
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+.container{
+	background-color: white;
+	margin:0;
+	padding: 0;
+}
+
+.navbar{
+	background-color: #6F6AF7;
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+
+}
+.nav_img{
+	margin-left: auto;
+	margin-right: 60px;
+}
+
+.nav_links{
+	list-style: none;
+	color: white;
+	justify-content: center;
+	display: flex;
+	flex: 1;
+	align-items: centre;
+}
+.nav_links li{
+	margin-right: 20px;
+	flex: 1;
+	text-align: centre;
+	align-items: center;
+}
+
+.search_bar{
+	display: flex;
+	/*background-color: white;*/
+	padding: none;
+  	/*border: 2px solid ;*/
+  	border-radius: 4px;
+  	margin-right: 10px;
+  	align-items: center;
+}
+.search_bar input[type="text"] {
+  /*padding: none;*/
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-right:100px;
+
+}
+.vector{
+	margin-left: auto;
+}
+
+.top_element,.mid_element{
+	margin: 60px;
+	background-color: white;
+	display: flex;
+
+
+}
+
+
+.text-area{
+	margin-left: 80px;
+	width: 972px;
+	border: 6px;
+	border-radius: 20px;
+	padding: 30px;
+	font-size: 14px;
+	background-color: #E5D8FF
+	/*width:972px;*/
+}
+.mid_element textarea{
+	/*margin-right: 40px;*/
+	flex: 1;
+	margin: 30px;
+	width: 142px;
+	height: 80px
+	padding: 20px;
+	font-size: 14px;
+	border:1px solid black;
+	border-radius: 6px;
+	color: white;
+	text-align: centre;
+	align-items: center;
+
+}
+#t1{
+	background-color:#929DFF;
+}
+#t2{
+	background-color:#734CF2;
+}
+#t3{
+	background-color:#D288FF;
+}
+#t4{
+	background-color:black;
+}
+
+.end_element{
+	background-color: blue;
+	display:flex;
+	margin: 40px;
+	border-radius: 12px
+}
+.left_end_element textarea{
+	background-color: blue;
+	color: white;
+	border: 3px solid white;
+	border-radius: 12px;
+	margin:40px 20px 40px 20px;
+	padding:20px;
+	display: block;
+	font-size: 16px;
+	/*text-align: center;*/
+	width: 397px;
+	height: 133px;
+	line-height: 8;
+	text-align: center;
+}
+#et1{
+	color: black;
+	background-color: #BCE0F6;
+}
+.right_end_element{
+	background-color: white;
+	margin: 20px;
+	width: 1004px;
+
+}
+.right_end_element div{
+	padding: 40px;
+	font-size: 16px;
+}
+#info-div{
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+.next{
+	position: absolute;
+	margin-left: auto;
+}
